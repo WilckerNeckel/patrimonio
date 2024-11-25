@@ -1,0 +1,115 @@
+/* Estilos Gerais */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  font-family: sans-serif;
+  background-color: #f9f9fc; /* Cor de fundo da tela */
+}
+
+/* Seção de Entrada/Saída */
+.secaoEntradaSaida {
+  background-color: #fff; /* Cor de fundo da seção */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+  width: 80%; /* Largura da seção */
+  max-width: 800px; /* Largura máxima para telas maiores */
+  margin: 40px auto; /* Espaçamento em torno da seção */
+  padding: 30px; /* Espaçamento interno da seção */
+  border-radius: 10px; /* Bordas arredondadas */
+}
+
+.tituloEntradaSaida {
+  text-align: center;
+  font-size: 24px; /* Tamanho da fonte do título */
+  font-weight: bold; /* Peso da fonte do título */
+  color: #333; /* Cor do título */
+  margin-bottom: 20px; /* Espaçamento abaixo do título */
+}
+
+.camposEntrada {
+  display: flex;
+  flex-direction: column; /* Organização dos campos em coluna */
+}
+
+.camposEntrada label {
+  margin-bottom: 5px; /* Espaçamento abaixo do rótulo */
+  color: #666; /* Cor do rótulo */
+}
+
+.camposEntrada input {
+  padding: 10px; /* Espaçamento interno do input */
+  border: 1px solid #ccc; /* Borda do input */
+  border-radius: 5px; /* Bordas arredondadas do input */
+  font-size: 16px; /* Tamanho da fonte do input */
+  width: 100%; /* Largura total do input */
+  margin-bottom: 15px; /* Espaçamento abaixo do input */
+}
+
+.botaoEntradaSaida {
+  background-color: #4CAF50; /* Cor de fundo do botão */
+  color: white; /* Cor do texto do botão */
+  padding: 12px 20px; /* Espaçamento interno do botão */
+  border: none; /* Remover borda do botão */
+  border-radius: 5px; /* Bordas arredondadas do botão */
+  cursor: pointer; /* Indicador de cursor ao passar o mouse */
+  transition: background-color 0.3s ease; /* Efeito de hover */
+}
+
+.botaoEntradaSaida:hover {
+  background-color: #45a049; /* Cor de fundo do botão no hover */
+}
+
+/* Seção de Listagem de Equipamentos */
+.secaoListagemEquipamentos {
+  background-color: #f5f5f5; /* Cor de fundo da seção */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+  width: 80%; /* Largura da seção */
+  max-width: 800px; /* Largura máxima para telas maiores */
+  margin: 40px auto; /* Espaçamento em torno da seção */
+  padding: 30px; /* Espaçamento interno da seção */
+  border-radius: 10px; /* Bordas arredondadas */
+}
+
+.tituloListagemEquipamentos {
+  text-align: center;
+  font-size: 24px; /* Tamanho da fonte do título */
+  font-weight: bold; /* Peso da fonte do título */
+  color: #333; /* Cor do título */
+  margin-bottom: 20px; /* Espaçamento abaixo do título */
+}
+
+.campoRfidSetor {
+  display: flex;
+  flex-direction: column; /* Organização dos campos em coluna */
+}
+
+.campoRfidSetor label {
+  margin-bottom: 5px; /* Espaçamento abaixo do rótulo */
+  color: #666; /* Cor do rótulo */
+}
+
+.campoRfidSetor input {
+  padding: 10px; /* Espaçamento interno do input */
+  border: 1px solid
+  #ccc; /* Borda do input */
+  border-radius: 5px; /* Bordas arredondadas do input */
+  font-size: 16px; /* Tamanho da fonte do input */
+  width: 100%; /* Largura total do input */
+  margin-bottom: 15px; /* Espaçamento abaixo do input */
+}
+
+.botaoListagemEquipamentos{
+  background-color: #4CAF50; /* Cor de fundo do botão */
+  color: white; /* Cor do texto do botão */
+  padding: 12px 20px; /* Espaçamento interno do botão */
+  border: none; /* Remover borda do botão */
+  border-radius: 5px; /* Bordas arredondadas do botão */
+  cursor: pointer; /* Indicador de cursor ao passar o mouse */
+  transition: background-color 0.3s ease; /* Efeito de hover */
+}
+
+.botaoListagemEquipamentos{
+  background-color: #45a049; /* Cor de fundo do botão no hover */
+
+}
